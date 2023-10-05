@@ -1,0 +1,21 @@
+.img-resize{
+  height:300px;
+  width: 300px;
+  object-fit: cover;
+
+}
+
+.tweets .user img{
+  border-radius: 50%;
+  float:left;
+
+}
+.frow{
+  display: flex
+}
+.card{
+  padding:  10px;
+}
+.card:hover {
+  background-color: lightgray;
+}

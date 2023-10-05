@@ -1,0 +1,49 @@
+.text-area{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+
+}
+input[type=text]:focus {
+  background-color: lightblue;
+}
+.image-upload img{
+  width:200px;
+
+}
+/* .column {
+  float: left;
+  padding: 10px;
+
+
+}
+
+.right {
+  width: 20%;
+  border-radius: 15px;
+  background: grey;
+  padding: 20px;
+  margin-left:30px;
+}
+.left {
+  width: 20%;
+
+
+}
+
+.middle {
+  width: 50%;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+
+} */
+
+.image-upload>input {
+  display: none;
+}
